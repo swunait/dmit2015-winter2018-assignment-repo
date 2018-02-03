@@ -217,11 +217,6 @@
 			<version>6.1</version>
 		</dependency>
 		<dependency>
-			<groupId>de.larmic.butterfaces</groupId>
-			<artifactId>components</artifactId>
-			<version>2.1.25</version>
-		</dependency>
-		<dependency>
 			<groupId>org.highfaces</groupId>
 			<artifactId>highfaces</artifactId>
 			<version>1.2</version>
