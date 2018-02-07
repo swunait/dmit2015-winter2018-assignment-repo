@@ -33,18 +33,47 @@
 
     <b:navBar brand="Assignment 2" brandHref="#{request.contextPath}/index.xhtml" fixed="top">
     	<b:navbarLinks>
+        	<b:dropMenu value="Regions">
+            	<b:navLink value="View Regions" href="#{request.contextPath}/public/viewRegions.xhtml"></b:navLink>
+            	<b:navLink value="New Region" href="#{request.contextPath}/public/regionDetail.xhtml"></b:navLink>
+        	</b:dropMenu>
+        </b:navbarLinks>
+        
+        <b:navbarLinks>
+        	<b:dropMenu value="Countries">
+            	<b:navLink value="View Countries" href="#{request.contextPath}/public/viewCountries.xhtml"></b:navLink>
+            	<b:navLink value="New Country" href="#{request.contextPath}/public/countryDetail.xhtml"></b:navLink>
+        	</b:dropMenu>
+        </b:navbarLinks>
+ 
+         <b:navbarLinks>
+        	<b:dropMenu value="Locations">
+        	    <b:navLink value="View Locations" href="#{request.contextPath}/public/viewLocations.xhtml"></b:navLink>
+            	<b:navLink value="New Location" href="#{request.contextPath}/public/locationDetail.xhtml"></b:navLink>
+        	</b:dropMenu>
+        </b:navbarLinks>
+        
+        <b:navbarLinks>
+        	<b:dropMenu value="Departments">
+            	<b:navLink value="View Departments" href="#{request.contextPath}/public/viewDepartments.xhtml"></b:navLink>
+            	<b:navLink value="New Department" href="#{request.contextPath}/public/departmentDetail.xhtml"></b:navLink>
+        	</b:dropMenu>
+        </b:navbarLinks>
+        
+        <b:navbarLinks>
+        	<b:dropMenu value="Employees">
+            	<b:navLink value="View Employees" href="#{request.contextPath}/public/viewEmployees.xhtml"></b:navLink>
+            	<b:navLink value="New Employee" href="#{request.contextPath}/public/employeeDetail.xhtml"></b:navLink>
+        	</b:dropMenu>
+        </b:navbarLinks>
+        
+    	<b:navbarLinks>
         	<b:dropMenu value="Jobs">
             	<b:navLink value="View Jobs" href="#{request.contextPath}/public/viewJobs.xhtml"></b:navLink>
             	<b:navLink value="New Job" href="#{request.contextPath}/public/jobDetail.xhtml"></b:navLink>
         	</b:dropMenu>
         </b:navbarLinks>
         
-        <b:navbarLinks>
-        	<b:dropMenu value="Locations">
-        	    <b:navLink value="View Locations" href="#{request.contextPath}/public/viewLocations.xhtml"></b:navLink>
-            	<b:navLink value="New Location" href="#{request.contextPath}/public/locationDetail.xhtml"></b:navLink>
-        	</b:dropMenu>
-        </b:navbarLinks>
     </b:navBar>
 
     <b:container>
