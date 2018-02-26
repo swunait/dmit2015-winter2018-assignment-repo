@@ -107,7 +107,7 @@ public class OrderEntryService {
 		return null;
 	}
 	
-	public List<CategorySales> findCategorSalesForOnlineCatalogYear(int year) {
+	public List<CategorySales> findCategorSalesForOnlineCatalogYear(Integer year) {
 		// TODO: Add the missing code below to return a list of CategorySales POJO 
 		// where the Category entity field "parentCategory.categoryId" does not equal to 90 and 
 		// the Order entity field "orderDate" year equals to the method parameter for the year.
@@ -115,7 +115,7 @@ public class OrderEntryService {
 		return null;
 	}
 	
-	public List<CategorySales> findCategorSalesForParentCategoryId(long parentCategoryId) {
+	public List<CategorySales> findCategorSalesForParentCategoryId(Long parentCategoryId) {
 		// TODO: Add the code the perform the following: 
 		// If the parentCategoryI" value is 90 then return a list of CategorySales POJO
 		// where the Category entity field "parentCategory.categoryId" is 10, 20, or 30.
@@ -124,7 +124,7 @@ public class OrderEntryService {
 		return null;
 	}
 	
-	public List<CategorySales> findCategorSalesForParentCategoryIdAndYear(long parentCategoryId, int year) {
+	public List<CategorySales> findCategorSalesForParentCategoryIdAndYear(Long parentCategoryId, Integer year) {
 		// TODO: Add the code the perform the following: 
 		// If the parentCategoryId" value is 90 then return a list of CategorySales POJO
 		// where the Category entity field "parentCategory.categoryId" is 10, 20, or 30 
@@ -140,7 +140,7 @@ public class OrderEntryService {
 		return null;
 	}
 	
-	public List<ProductSales> findProductSalesForYear(int year, int maxResult) {
+	public List<ProductSales> findProductSalesForYear(Integer year, int maxResult) {
 		// TODO: Add the missing code below to return list of ProductSales POJO 
 		// where the Order entity field "orderDate" year value equals the method parameter for the year
 		// and limit the max results returned to equal the "maxResult" method parameter value.
