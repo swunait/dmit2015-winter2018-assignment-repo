@@ -21,7 +21,7 @@
         http://xmlns.jcp.org/xml/ns/persistence
         http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
    <persistence-unit name="primary">
-      <jta-data-source>java:jboss/datasources/oeDS</jta-data-source>
+      <jta-data-source>java:jboss/oeDS</jta-data-source>
       <class>dmit2015.oe.entity.Customer</class>
       <class>dmit2015.oe.entity.Inventory</class>
       <class>dmit2015.oe.entity.InventoryPK</class>
